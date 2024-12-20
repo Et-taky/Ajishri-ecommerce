@@ -37,14 +37,13 @@ Avant de commencer, assurez-vous que votre environnement répond aux exigences s
 1. Renommez le fichier `wp-config-sample.php` en `wp-config.php` dans le dossier racine :
    ```bash
    mv wp-config-sample.php wp-config.php
-   ```
 2. Ouvrez le fichier wp-config.php et configurez les paramètres suivants :
-   ```php
-define('DB_NAME', 'wordpress_ecommerce'); // Nom de la base de données
+```php
+define('DB_NAME', 'wordpress'); // Nom de la base de données
 define('DB_USER', 'root'); // Remplacez par votre nom d'utilisateur MySQL
 define('DB_PASSWORD', 'root'); // Remplacez par votre mot de passe MySQL
 define('DB_HOST', 'localhost'); // Adresse du serveur (par défaut localhost)
-    ```
+```
 ### Identifiants administrateur principal
 Voici les identifiants par défaut pour accéder à l'administration du site :
 
